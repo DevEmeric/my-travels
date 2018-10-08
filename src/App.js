@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Travel from './Travel';
+import Travel from './Travel.js';
+import Travels from "./Travels.js";
 
 class App extends Component {
   render() {
@@ -23,7 +24,11 @@ class App extends Component {
           photo="http://www.theswissholidays.com/europe-tours/europe-tour-packages/images/Amsterdam-Brussels-Paris.jpg"
           distance="1200km"
         />
+        <section>
+          <Travels />
+        </section>
       </div>
+      
     );
   }
 }
